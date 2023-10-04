@@ -112,7 +112,7 @@ a {
   .header-menu:after {
     content: "";
     display: block;
-    width: 1.2rem;
+    width: 25px;
     height: 2px;
     border-radius: 0.2rem;
     background: currentColor;
@@ -464,20 +464,18 @@ a {
   }
 }
 
-.stores .content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-@media(max-width: 1025px) {
+@media(min-width: 1026px) {
   .stores .content {
-    flex-direction: column;
-    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
-.stores-column {
-  max-width: 700px;
+@media(min-width: 1026px) {
+  .stores-column {
+    max-width: 700px;
+  }
 }
 
 .stores-carousel {
@@ -520,8 +518,19 @@ a {
 .stores-image {
   width: 100%;
   max-width: 570px;
-  margin: 0 0 0 auto;
   display: block;
+}
+@media(min-width: 1026px) {
+  .stores-image {
+    margin: 0 0 0 auto;
+  }
+}
+@media(max-width: 1025px) {
+  .stores-image {
+    margin: 30px auto 0 auto;
+    max-height: 370px;
+    object-fit: contain;
+  }
 }
 
 
@@ -566,7 +575,7 @@ a {
   .revendedor {
     flex-direction: column;
     gap: 30px;
-    padding: 20px;
+    padding: 40px 20px;
   }
 }
 
@@ -719,6 +728,7 @@ a {
   padding: 12px 32px;
   transition: .2s linear;
   min-width: 135px;
+  text-align: center;
 }
 @media(min-width: 1026px) {
   .instagram-button {
@@ -743,6 +753,7 @@ a {
 @media(max-width: 1025px) {
   .instagram-flex {
     flex-direction: column;
+    gap: 20px;
   }
 }
 
@@ -783,6 +794,11 @@ a {
   align-items: center;
   gap: 20px;
   padding-top: 20px;
+}
+@media(max-width: 1025px) {
+  .instagram-bottom {
+    justify-content: center;
+  }
 }
 
 .instagram-text {
