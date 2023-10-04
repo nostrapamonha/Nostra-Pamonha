@@ -172,7 +172,7 @@ a {
 
 /* BANNER PRINCIPAL */
 .banner-main {
-  background: url("../img/background-main.png");
+  background: url("../img/background-main.webp");
   background-repeat: no-repeat;
 }
 @media(min-width: 1026px) {
@@ -200,7 +200,7 @@ a {
 
 /* INGREDIENTES */
 .banner-two {
-  background: url("../img/background-two.png");
+  background: url("../img/background-two.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -276,7 +276,7 @@ a {
 
 /* ABOUT */
 .about {
-  background: url("../img/background-about.png");
+  background: url("../img/background-about.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -370,7 +370,7 @@ a {
 
 /* PRODUTOS */
 .products {
-  background: url("../img/background-products.png");
+  background: url("../img/background-products.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -458,7 +458,7 @@ a {
 
 /* STORES */
 .stores {
-  background: url("../img/background-stores.png");
+  background: url("../img/background-stores.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
