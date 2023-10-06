@@ -886,6 +886,11 @@ a {
   font-weight: 600;
 }
 
+.instagram-image {
+  max-width: 40px;
+  border-radius: 50%;
+}
+
 /* FOOTER */
 .footer {
   background: rgba(35, 62, 50, 1);
