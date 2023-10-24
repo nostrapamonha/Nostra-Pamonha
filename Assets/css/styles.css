@@ -182,7 +182,7 @@ a {
 
 /* BANNER PRINCIPAL */
 .banner-main {
-  background: url("../img/background-main.webp");
+  background: url("../img/background-main.gif");
   background-repeat: no-repeat;
 }
 @media(min-width: 768px) {
@@ -210,16 +210,25 @@ a {
 
 /* INGREDIENTES */
 .banner-two {
-  background: url("../img/background-two.webp");
+  background: url("../img/background-two2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  margin-top: -1px;
+}
+@media(max-width: 767px) {
+  .banner-two {
+    margin-top: -25px;
+  }
+}
+@media(min-width: 768px) {
+  .banner-two {
+    margin-top: -55px;
+  }
 }
 
 .banner-two {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 @media(min-width: 768px) {
@@ -227,18 +236,33 @@ a {
     text-align: center;
     margin-left: 500px;
     margin-top: 85px;
-    margin-bottom: 435px;
   }
 }
 @media(max-width: 767px) {
   .banner-two__ingredientes {
     text-align: right;
-    margin-top: 30px;
-    margin-bottom: 435px;
+    margin-top: 15px;
   }
 
   .banner-two__ingredientes svg {
     max-width: 150px;
+  }
+}
+
+.banner-two__ingred {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
+@media(min-width: 768px) {
+  .banner-two__ingred {
+    margin-top: -140px;
+  }
+}
+@media(max-width: 767px) {
+  .banner-two__ingred {
+    margin-top: -40px;
   }
 }
 
@@ -290,7 +314,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  margin-top: -35px;
+  margin-top: -60px;
   z-index: -1;
   position: relative;
 }
@@ -554,7 +578,6 @@ a {
 
 .stores-image {
   width: 100%;
-  max-width: 570px;
   display: block;
 }
 @media(min-width: 768px) {
