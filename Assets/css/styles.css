@@ -217,12 +217,12 @@ a {
 }
 @media(max-width: 767px) {
   .banner-two {
-    margin-top: -25px;
+    margin-top: -10px;
   }
 }
 @media(min-width: 768px) {
   .banner-two {
-    margin-top: -55px;
+    margin-top: -30px;
   }
 }
 
