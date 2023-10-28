@@ -478,6 +478,14 @@ a {
 .product-image {
   width: 100%;
   margin-bottom: -15px;
+  border-radius: 8px;
+}
+
+@media(min-width: 768px) {
+  .product-image {
+    height: 270px;
+    object-fit: cover;
+  }
 }
 
 .product-title {
